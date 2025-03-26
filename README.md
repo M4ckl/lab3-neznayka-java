@@ -49,3 +49,6 @@ Note: The output does not need to exactly replicate the original text or include
 7. You may add <strong>internal, local, and anonymous classes</strong> if needed.
 
 CONSOLE: 
+
+<img width="524" alt="Zrzut ekranu 2025-03-26 o 09 35 51" src="https://github.com/user-attachments/assets/2deaab15-2461-407f-915c-a890374f1b85" />
+
