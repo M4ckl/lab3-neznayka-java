@@ -8,10 +8,10 @@ public class Moon extends ACosmicThings {
     @Override
     public void conditionOfBrightness() {
         if (Integer.parseInt(getFeature()) > 50 ) {
-            System.out.println(getName() + " светиться в " + Math.round((100/(Integer.parseInt(getFeature())*0.01))/4) + " раз больше Земли.");
+            System.out.println(getName() + " glow " + Math.round((100/(Integer.parseInt(getFeature())*0.01))/4) + " times the size of the Earth.");
         }
         else {
-            System.out.println(getName() + " светиться в " + Math.round((100/(Integer.parseInt(getFeature())*0.01))/4) + " раз слабее Земли.");
+            System.out.println(getName() + " glow " + Math.round((100/(Integer.parseInt(getFeature())*0.01))/4) + " times smaller than the Earth.");
         }
     }
 }

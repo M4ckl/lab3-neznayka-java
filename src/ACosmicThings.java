@@ -14,10 +14,10 @@ public abstract class ACosmicThings implements IGetters {
 
    public void lookLike() {
        if (Integer.parseInt(getFeature()) < 50 ) {
-            System.out.println(getName() + " выглядит как " + EForm.МАЛЕНЬКАЯТАРЕЛКА + ".");
+            System.out.println(getName() + " looks like " + EForm.SMALLPLATE + ".");
    }
         else {
-            System.out.println(getName() + " выглядит как " + EForm.БОЛЬШОЙКРУГЛЫЙПОДНОС + ".");
+            System.out.println(getName() + " looks like " + EForm.LARGEROUNDTRAY + ".");
         }
    }
 

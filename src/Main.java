@@ -2,11 +2,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        APerson znajka = new APerson("Знайка", "Друг");
-        APerson fuksia = new APerson("Фуксия", "Друг");
-        APerson seledochka = new APerson("Селедочка", "Друг");
-        APerson zvezdochkin = new APerson("Звездочкин", "Проффесор");
-        APerson others = new APerson("Другие", "Другие");
+        APerson znajka = new APerson("Znayka", "Friend");
+        APerson fuksia = new APerson("Fuchsia", "Friend");
+        APerson seledochka = new APerson("Selyodochka", "Friend");
+        APerson zvezdochkin = new APerson("Zvezdochkin", "Professor");
+        APerson others = new APerson("Other", "Other");
 
         znajka.seeAbout();
         znajka.changeLocation();
@@ -15,8 +15,8 @@ public class Main {
         zvezdochkin.changeLocation();
         others.changeLocation();
 
-        ACosmicThings earth = new Earth("Земля", 100);
-        ACosmicThings moon = new Moon("Луна", 27);
+        ACosmicThings earth = new Earth("Earth", 100);
+        ACosmicThings moon = new Moon("Moon", 27);
 
 
         earth.lookLike();

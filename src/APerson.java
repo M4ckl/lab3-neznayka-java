@@ -20,30 +20,30 @@ public class APerson implements IMove, IGetters, ICheckTruth {
 
     @Override
     public void changeLocation() {
-        if (getFeature().equals("Другие")) {
-            System.out.println(getName() + " остануться в " + ELocation.ПЕЩЕРЕ + ".");
+        if (getFeature().equals("Other")) {
+            System.out.println(getName() + " will remain in " + ELocation.CAVE+ ".");
         }
         else {
-            System.out.println(getName() + " пойдет в " + ELocation.ОБРАТНЫЙПУТЬ + ".");
+            System.out.println(getName() + " will go to " + ELocation.RETURNJOURNEY + ".");
         }
     }
 
     @Override
     public void talk() {
-        System.out.println("говорит. ");
+        System.out.println("says. ");
     }
 
     @Override
-    public void seeAbout() { System.out.print(name + " посмотрел. "); }
+    public void seeAbout() { System.out.print(name + " looked at it. "); }
 
     @Override
     public void checkTruth(ACosmicThings planet1, ACosmicThings planet2) {
         if (Integer.parseInt(planet1.getFeature()) > Integer.parseInt(planet2.getFeature())){
-            System.out.println("Все факты-правда.");
-            System.out.println("Есть возможность " + EAbilities.ЧИТАТЬ + ", " + EAbilities.ПИСАТЬ + ", " + EAbilities.РИСОВАТЬ + ", " + EAbilities.ДЕЛАТЬДРУГИЕДЕЛА + ".");
+            System.out.println("All the facts are true.");
+            System.out.println("There is a possibility to " + EAbilities.READ + ", " + EAbilities.WRITE + ", " + EAbilities.DRAW + ", " + EAbilities.D0OTHERTHINGS + ".");
         }
         else {
-            System.out.println("Все факты-ложь.");
+            System.out.println("All the facts are lies.");
         }
     }
 

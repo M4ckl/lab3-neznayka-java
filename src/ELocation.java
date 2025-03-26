@@ -1,7 +1,7 @@
 
 
 public enum ELocation {
-    ПЕЩЕРЕ,
-    ОБРАТНЫЙПУТЬ;
+    CAVE,
+    RETURNJOURNEY;
 }
 

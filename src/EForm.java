@@ -1,6 +1,6 @@
 
 
 public enum EForm {
-    МАЛЕНЬКАЯТАРЕЛКА,
-    БОЛЬШОЙКРУГЛЫЙПОДНОС;
+    SMALLPLATE,
+    LARGEROUNDTRAY,
 }

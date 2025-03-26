@@ -1,8 +1,8 @@
 
 
 public enum EAbilities {
-    ЧИТАТЬ,
-    ПИСАТЬ,
-    РИСОВАТЬ,
-    ДЕЛАТЬДРУГИЕДЕЛА;
+    READ,
+    WRITE,
+    DRAW,
+    D0OTHERTHINGS;
 }
